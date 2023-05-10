@@ -12,3 +12,10 @@ function reiniciarContador(){
     contador = 0;
     pContador.innerHTML = contador; 
 }
+
+
+function restarClickContador(){
+    contador = contador - 1;
+    pContador.innerHTML = contador;
+
+}
